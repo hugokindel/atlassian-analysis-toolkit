@@ -1,0 +1,9 @@
+title = "Sowee Gitleaks Filters"
+
+[extend]
+useDefault = true
+
+[[rules]]
+description = "Android Build Config"
+id = "android-build-config"
+regex = '''buildConfigField'''
